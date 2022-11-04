@@ -12,13 +12,6 @@
   box-sizing: border-box;
 }
 
-/*achtergrondafbeelding instellen*/
-body {
-  font-family: sans-serif;
-  background-position: left top;
-  background-image: url("Inf.\ Achtergrond2.webp");
-  background-attachment: fixed;
-}
 
 /*Logo grootte en kleur*/
 .logo {
@@ -49,7 +42,7 @@ body {
 }
 
 .menu-bar ul li {
-  padding: 10px 30px;
+  padding: 20px 40px;
     position: relative;
 }
 
@@ -106,7 +99,7 @@ body {
   background-color: var(--color-black);
 }
 
-/*opmaak voor basic tekst*/
+/*tekst tyle type*/
 p {
   margin: 15px;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -115,7 +108,7 @@ p {
   color: var(--color-black);
   text-indent: 15px;
 }
-/* een witte 'box' waarin alle tekst komt te staan */
+/* plek waar tekst komt te staan*/
 .box {
   background-color: white;
   border: 5px solid white;
@@ -124,7 +117,7 @@ p {
   margin: 50px 200px;
 }
 
-/*De opmaak voor de headers*/
+/*Opmaak voor de koppen van de stukjes tekst*/
 h1 {
   text-transform: uppercase;
   margin: 15px;
@@ -140,23 +133,23 @@ h2 {
   margin: 15px;
 }
 
-/*De opmaak voor de footer*/
+/*Opmaak voet van de pagina*/
 .footer {
   padding: 20px;
   text-align: left;
   background:var(--color-black);
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 p1 {
   color:var(--color-white)
 }
 
-/*De opmaak voor de interne links, die niet bij het dropdown menu horen*/
+/*Opmaak van links binnen de site*/
 .box a:link, a:visited {
   background-color: var(--color-black);
   color: white;
-  padding: 10px 25px;
+  padding: 15px 45px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
