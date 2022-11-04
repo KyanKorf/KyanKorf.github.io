@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html> 
 
-<!--De pagina een titel geven en links toevoegen zodat de opmaak klopt-->
+<!--De css opmaak invoeren en titel geven van de site-->
 <head>
   <title>Logische laag</title>
   <meta charset="utf-8">
@@ -9,58 +9,61 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
   <link rel="stylesheet" href="opmaak.css">
 </head>
-
-<!--dropdown menu als horizontale 'bar'-->
+    
+<!--dubbelle dropdown menu met andere opties zoals home en interfaces-->
 <body>
 <div class="menu-bar">
-<h3 class="logo">Mike's <span>Computerwereld</span></h3>
-<ul>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="drielagenmodel.html">Drielagenmodel <i class="fas fa-caret-down"></i></a>
+    <h3 class="logo">Mike's <span>Computerwereld</span></h3>
+    <ul>
+      <li><a href="drielagenmodel.html">Drielagenmodel <i class="fas fa-caret-down"></i></a>
 
-      <div class="dropdown-menu">
-          <ul>
-            <li><a href="fysiekelaag.html">Fysieke laag <i class="fas fa-caret-right"></i></a>
-              
-                <div class="dropdown-menu-1">
-                  <ul>
-                    <li><a href="moederbord en bus.html">Moederbord en bus</a></li>
-                    <li><a href="processor en kloksnelheid.html">Processor en kloksnelheid</a></li>
-                    <li><a href="RAM, ROM en permanent.html">RAM, ROM en permanent</a></li>
-                    <li><a href="Randapparatuur.html">Randapparatuur</a></li>
-                    <li><a href="sensoren en actuatoren.html">Sensoren en actuatoren</a></li>
-                  </ul>
+          <div class="dropdown-menu">
+              <ul>
+                <li><a href="Toepassingslaag.html">Toepassingen laag<i class="fas fa-caret-right"></i></a>
+                
+                  <div class="dropdown-menu-1">
+                      <ul>
+                        <li><a href="Apps en API.html">Apps en API</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                <li><a href="LogischeLaag.html">Logische laag<i class="fas fa-caret-right"></i></a>
+                    
+                  <div class="dropdown-menu-1">
+                    <ul>
+                      <li><a href="Operating system.html">Operating system</a></li>
+                    </ul>
                 </div>
               </li>
-            <li><a href="logischelaag.html">Logische laag<i class="fas fa-caret-right"></i></a>
-                
-              <div class="dropdown-menu-1">
-                <ul>
-                  <li><a href="Operating system.html">Operating system</a></li>
-                </ul>
+                    <li><a href="fysiekeLaag.html">Fysieke laag <i class="fas fa-caret-right"></i></a>
+                      <div class="dropdown-menu-1">
+                        <ul>
+                          <li><a href="moederboord en bus.html">Moederbord en bus</a></li>
+                          <li><a href="RAM en ROM.html">RAM en ROM</a></li>
+                          <li><a href="processor en kloksnelheid.html">Processor en kloksnelheid</a></li>
+                          <li><a href="sensoren en auctoren.html">Sensoren en actuatoren</a></li>
+                          <li><a href="randapperatuur.html">Randapparatuur</a></li>
+                        </ul>
+                      </div>
+                    </li>
+              </ul>
             </div>
-            </li>
-            <li><a href="toepassingenlaag.html">Toepassingen laag<i class="fas fa-caret-right"></i></a>
-            
-                <div class="dropdown-menu-1">
-                    <ul>
-                      <li><a href="Apps en API.html">Apps en API</a></li>
-                    </ul>
-                  </div>
-                </li>
-          </ul>
-        </div>
-  </li>
-  <li><a href="Interfaces.html">Interfaces</a>
-  </li>
-</ul>
-</div>
+      </li>
+      <li><a href="interfaces.html">Interfaces</a>
+        <li><a href="index.html">Home</a></li>
+      </li>
+    </ul>
+  </div>
 
 <!--De tekst voor deze pagina-->
 <div class="box">
-  <h1>Logische laag</h1>
-  <p>De software van je apparaat. Hierdoor kan je bijvoorbeeld apps op het apparaat laten uitvoeren. Bij een smartphone bestaat deze laag vooral uit het besturingssysteem, zoals bijvoorbeeld android of iOS.</p>
-  <p>Ga naar:</p>
+  <h1>Wat is de logische laag?</h1>
+  <p>Naast de scheiding tussen de hardware en de software, is er ook een scheiding tussen de universele systeemsoftware (logische laag) en de toepassingen. Naast het aspect van variatie en evolutie hebben we hier vooral te maken met de logische laag als gemeenschappelijke infrastructuur voor de toepassingen:
+
+    de logische laag herbergt de universele aspecten van informatieprocessen - zoals het opbergen en terugzoeken van gegevens. Deze worden aangeboden op een hoog niveau van functionaliteit, om het gebruik ervan te vereenvoudigen, en de kans op fouten in het gebruik kleiner te maken.
+    de logische laag herbergt de functionaliteit die voor veel verschillende toepassingen van belang is. Door deze buiten de toepassingen te halen, vermindert de redundantie van het totale systeem. Dit verhoogt de betrouwbaarheid, verlaagt de kosten van toepassingen, en vereenvoudigt de samenwerking tussen toepassingen (en tussen gebruikers).
+    de logische laag zorgt voor het beheer van de gemeenschappelijke resources - zoals de hardware. De toegang hiertoe wordt geregeld op zo'n manier dat verschillende toepassingen en gebruikers elkaar niet in de weg kunnen zitten, en dat ze -indien nodig- soepel kunnen samenwerken.</p>
+  <p>Lees meer:</p>
   <a href="Operating system.html">Operating system</a>
 </div>
 
