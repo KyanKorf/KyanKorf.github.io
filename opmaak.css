@@ -34,7 +34,7 @@ body {
 .menu-bar {
   background-color: var(--color-black);
   height: 72px;
-  width: 90%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -49,11 +49,8 @@ body {
 }
 
 .menu-bar ul li {
-  /* width: 120px; */
   padding: 10px 30px;
-  /* text-align: center; */
-
-  position: relative;
+    position: relative;
 }
 
 .menu-bar ul li a {
