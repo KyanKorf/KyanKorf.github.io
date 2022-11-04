@@ -1,4 +1,4 @@
-/*basic kleuren die ik gebruik in mijn website*/
+/*kleuren die ik gekozen heb voor mijn site*/
 :root {
   --color-primary: #5100ff;
   --color-white: #ffffff00;
@@ -20,10 +20,10 @@ body {
   background-attachment: fixed;
 }
 
-/*De opmaak voor het logo*/
+/*Logo grootte en kleur*/
 .logo {
   color: var(--color-white);
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .logo span {
